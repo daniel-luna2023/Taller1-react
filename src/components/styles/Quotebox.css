@@ -15,8 +15,23 @@
 
 .footer {
     color: aliceblue;
+    padding: 10px;
 }
 
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .article{
     color: aliceblue;
+    text-align: center;
+
+}
+.button {
+    width: 30%;
+    border: 1px solid green;
+    color: red;
+    border-radius: 15px;
+    cursor: pointer;
 }

@@ -6,16 +6,17 @@ console.log(quote)
 
   return (
     <section className='quoteclas'>
-      <h1 className='title'>Galaxys phrases</h1>
+      <h1 className='title'>Galaxy phrase</h1>
 
-      <section>
-        <button onClick={handleChange}>try againt</button>
+      <section className='section'>
+        <button onClick={handleChange} className='button'>try again</button>
         <article className='article'>
           <p>{quote.phrase}</p>
         </article>
+        <h4>{quote.author}</h4>
       </section>
 
-      <footer className='footer'><h4>{quote.author}</h4></footer>
+      <footer className='footer'>create by: Oscar Gomez</footer>
     </section>
   )
 }

@@ -2,6 +2,7 @@
     min-height: 100vh;
     background-position: center;
     background-size: cover;
+    overflow: hidden;
 }
 
 .bg1 {
@@ -19,3 +20,4 @@
 .bg4 {
     background-image: url("./assets/images/bg4.jpg");
 }
+
