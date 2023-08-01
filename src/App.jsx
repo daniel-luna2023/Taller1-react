@@ -6,6 +6,7 @@ import Quotebox from './components/Quotebox'
 
 function App() {
   const [quote, setquote] = useState(getRamdon(quotes))
+  const [currentbg, setcurrentbg] = useState()
 
   const handleChange = () => {
     setquote(getRamdon(quotes))
@@ -13,7 +14,7 @@ function App() {
 
  
   return (
-    <main>
+    <main className='bg4'>
      <Quotebox handleChange={handleChange} quote={quote}/>
     </main>
   )
