@@ -1,0 +1,22 @@
+.quoteclas {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    place-items: center;
+    width: min(100%, 320px);
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+
+.title{
+    color: aliceblue;
+}
+
+.footer {
+    color: aliceblue;
+}
+
+.article{
+    color: aliceblue;
+}
