@@ -9,6 +9,9 @@ const listBg = ["bg1", "bg2", "bg3", "bg4"]
 
 
 
+//otro listado, otro boton, el mismo currentbg para hacer el cambio del quote
+
+
 
 function App() {
   const [quote, setquote] = useState(getRamdon(quotes))

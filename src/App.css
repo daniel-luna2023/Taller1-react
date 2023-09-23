@@ -1,5 +1,6 @@
 .App {
     min-height: 100vh;
+    min-width: 100vw;
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -19,5 +20,21 @@
 
 .bg4 {
     background-image: url("./assets/images/bg4.jpg");
+}
+
+.bg5 {
+    background-image: url(./assets/images/fortuna2-3.webp);
+}
+
+.bg6 {
+    background-image: url("./assets/images/fortuna2-1.webp");
+}
+
+.bg7 {
+    background-image: url("./assets/images/fortuna2-2.webp");
+}
+
+.bg8 {
+    background-image: url("./assets/images/fortuna2-4.webp");
 }
 
